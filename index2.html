@@ -341,9 +341,11 @@
         }
 
         .tab-content ul {
-            margin-left: 1.5rem;
+            margin-left: 0;
+            padding-left: 0;
             margin-bottom: 1.5rem;
             color: var(--text-muted);
+            list-style: none;
         }
 
         .tab-content ul li {
@@ -353,6 +355,9 @@
 
         .tab-content strong {
             color: var(--text-color);
+        }
+        .tabs-container input[type="radio"] {
+            display: none;
         }
 
         #tab1:checked ~ .content1,
